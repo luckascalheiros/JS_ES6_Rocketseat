@@ -1,0 +1,5 @@
+
+yarn add @babel/cli - Fremwork que converse comandos mais rescentes do JS para versões antigas
+yarn add @babel/preset-env
+
+.babelrc - Arquivo de configuração Babel criado na raiz do projeto
