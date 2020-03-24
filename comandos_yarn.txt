@@ -5,7 +5,20 @@ yarn  - adiciona todas as dependencias de forma automática de um projeto salvo
 yarn add nome_dependencia - Adiciona dependencias ao projeto
     yarn add express - adiciona o expresse que é um framwork do node para micro funções, cria dependencia altomatica no arquivo json
     yarn add @babel/cli - Fremwork que converse comandos mais rescentes do JS para versões antigas
-    yarn add @babel/preset-env
+    yarn add @babel/preset-env 
+    yarn add @babel/plugin-proposal-object-rest-spread
+    yarn add webpack-cli -D 
+    yarn add webpack --dev
+    yarn add webpack-dev-server -D
+    yarn add @babel/plugin-transform-async-to-generator - integrar o async await no babel -D
+    yarn add @babel/polyfill -D
+    yarn add axios - extensão de requisição de api via https
 
+
+Scripts do webpack
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  }
     
     
